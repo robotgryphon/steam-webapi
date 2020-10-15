@@ -1,0 +1,9 @@
+version: "3"
+services:
+  web:
+    build: .
+    image: steam-api
+    ports:
+      - "3000:443"
+    environment:
+      - ASPNETCORE_Steam__ApiKey: "${{ secrets.SteamApiKey }}"

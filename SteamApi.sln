@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SteamApi", "SteamApi\SteamApi.csproj", "{72E734C1-3600-4E8D-A793-33C05094E42D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Steam.JsonModels", "Steam.JsonModels\Steam.JsonModels.csproj", "{B9FB7962-6487-48CF-945C-AA968E4F4511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamApi.Json", "SteamApi.Json\SteamApi.Json.csproj", "{B2E41F86-938A-4C85-B174-86024FF1CC2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C96B7DD8-E99D-43D8-B5A2-DCBF34B150C7}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72E734C1-3600-4E8D-A793-33C05094E42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E734C1-3600-4E8D-A793-33C05094E42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E734C1-3600-4E8D-A793-33C05094E42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E734C1-3600-4E8D-A793-33C05094E42D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9FB7962-6487-48CF-945C-AA968E4F4511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9FB7962-6487-48CF-945C-AA968E4F4511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9FB7962-6487-48CF-945C-AA968E4F4511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9FB7962-6487-48CF-945C-AA968E4F4511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E41F86-938A-4C85-B174-86024FF1CC2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E41F86-938A-4C85-B174-86024FF1CC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E41F86-938A-4C85-B174-86024FF1CC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E41F86-938A-4C85-B174-86024FF1CC2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD77AE16-5E67-40EA-9A77-965E47B69BED}
+	EndGlobalSection
+EndGlobal
